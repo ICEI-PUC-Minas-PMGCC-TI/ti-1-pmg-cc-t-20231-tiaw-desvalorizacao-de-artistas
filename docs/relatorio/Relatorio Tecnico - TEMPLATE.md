@@ -101,6 +101,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |Produtor            |Encontrar novos talentos            | Produzir e trabalhar em novos projetos |
 |--------------------|------------------------------------|----------------------------------------|
 |Fã                  |Serviço com ampla variedade         | Encontrar novos artistas               |
+|--------------------|------------------------------------|----------------------------------------|
 
 > Apresente aqui as histórias de usuário que são relevantes para o
 > projeto de sua solução. As Histórias de Usuário consistem em uma
