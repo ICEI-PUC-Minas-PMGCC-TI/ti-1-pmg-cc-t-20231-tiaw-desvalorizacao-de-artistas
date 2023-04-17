@@ -77,34 +77,17 @@ Tem que falar o motivo da gente ter escolhido esse tema
 
 ## Personas, Empatia e Proposta de Valor
 
-......  COLOQUE AQUI O SEU TEXTO ......
+ Persona 1
+![image](https://user-images.githubusercontent.com/130800957/232359753-635d55b1-4719-45e9-8d0f-e5af8e47ae08.png)
+![image](https://user-images.githubusercontent.com/130800957/232359769-c5a487de-8c62-488a-8dbd-c8a1d52068b3.png)
 
+ Persona 2
+![image](https://user-images.githubusercontent.com/130800957/232359858-583346f9-f9b6-451c-977b-0b79297e26c7.png)
+![image](https://user-images.githubusercontent.com/130800957/232359875-b9b33fab-0f4d-44e5-9bf2-c4885c95b813.png)
 
-> Relacione as personas identificadas no seu projeto, os respectivos mapas de empatia e 
-> mapas da proposta de valor. Lembre-se que você deve ser enumerar e descrever precisamente 
-> e de forma personalizada todos os principais envolvidos com a solução almeja. 
-> 
-> Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina
-> e/ou nos seguintes links:
->
-> **Links Úteis**:
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Como fazer um mapa de empatia - Vídeo](https://www.youtube.com/watch?v=JlKHGpVoA2Y)
-> - [Canvas da Proposta de Valor](https://analistamodelosdenegocios.com.br/canvas-da-proposta-de-valor/)
-> 
-> 
-> **Exemplo de Persona**
-> 
-> ![Exemplo de Persona](images/persona.png)
-> 
-> Fonte: [Como criar uma persona para o seu negócio](https://raissaviegas.com.br/como-criar-uma-persona/)
->
-> **Exemplo de Proposta de Valor**
-> ![Exemplo da Proposta de Valor](images/proposta_valor.png)
+  Persona 3
+![image](https://user-images.githubusercontent.com/130800957/232359923-d0e4d271-5204-4103-b611-b8d1a55481f4.png)
+![image](https://user-images.githubusercontent.com/130800957/232359945-795958bc-fa5a-4f5a-8a28-9252a839c43e.png)
 
 
 ## Histórias de Usuários
