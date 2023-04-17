@@ -186,7 +186,6 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 # Metodologia
 
-......  COLOQUE AQUI O SEU TEXTO ......
 
 > Nesta parte do documento, você deve apresentar a metodologia 
 > adotada pelo grupo, descrevendo o processo de trabalho baseado nas metodologias ágeis, 
@@ -206,11 +205,11 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 ## Divisão de Papéis
 
-- Henrique Saldanha Mendes Veloso: 
-- Lucas Soares Tavares 
-- Rafael Fagundes Silva Reis: 
-- Gabriel Lara Martins Lana: 
-- Mario Wagner Resende Finelli Junior:
+- Henrique Saldanha Mendes Veloso: Miro, GitHub.
+- Lucas Soares Tavares: Miro, GitHub.
+- Rafael Fagundes Silva Reis: Miro.
+- Gabriel Lara Martins Lana: Miro.
+- Mario Wagner Resende Finelli Junior: Miro.
 
 > Apresente a divisão de papéis e tarefas entre os membros do grupo.
 >
