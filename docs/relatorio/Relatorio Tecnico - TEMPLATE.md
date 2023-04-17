@@ -63,7 +63,7 @@ Ciência da Computação | Tarde | Puc Minas Coração Eucaristico
 
 ## Justificativa
 
-Tem que falar o motivo da gente ter escolhido esse tema
+Nós temos um interesse pessoal na música e nos desafios enfrentados pelos artistas em sua indústria. Somos fãs de música e estamos preocupados com a forma como os artistas são tratados em termos de reconhecimento, remuneração e oportunidades de carreira. Além de acreditarmos que é um problema atual e digno de discussão.
 
 ## Público-Alvo
 
