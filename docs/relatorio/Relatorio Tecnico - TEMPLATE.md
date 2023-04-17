@@ -1,21 +1,19 @@
 # Informações do Projeto
 `TÍTULO DO PROJETO`  
 
-......  COLOQUE AQUI O SEU TEXTO ......
+A Desvalorização dos Artistas na Música
 
 `CURSO` 
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Ciência da Computação | Tarde | Puc Minas Coração Eucaristico
 
 ## Participantes
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Inclua a lista dos membros da equipe com seus nomes completos.
->
-> Os membros do grupo são: 
-> - Fulano da Silva
-> - Ciclano Albuquerque
+ - Henrique Saldanha Mendes Veloso
+ - Lucas Soares Tavares
+ - Rafael Fagundes Silva Reis
+ - Gabriel Lara Martins Lana
+ - Mario Wagner Resende Finelli Junior
 
 # Estrutura do Documento
 
