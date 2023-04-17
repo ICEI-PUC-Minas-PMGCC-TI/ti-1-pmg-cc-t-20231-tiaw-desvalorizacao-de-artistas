@@ -52,11 +52,10 @@ Ciência da Computação | Tarde | Puc Minas Coração Eucaristico
 
 # Introdução
 
- A desvalorização dos artistas na música é um problema em que muitos artistas se sentem subestimados e não recebem o devido reconhecimento e remuneração por seu trabalho criativo. Isso pode ocorrer devido a baixos cachês, royalties inadequados, contratos desfavoráveis, falta de reconhecimento artístico, saturação do mercado musical e pressão comercial. Isso pode ter um impacto negativo na saúde mental e emocional dos artistas, levando ao esgotamento e frustração. É importante que a indústria musical reconheça o valor dos artistas e trabalhe para garantir sua justa valorização em termos de remuneração e reconhecimento artístico.
 
 ## Problema
 
-FALAR O PROBLEMA QUE ESTAMOS TENDANDO RESOLVER, TIPO "O problema que estamos tentando resolver é que artistas pequenos não conseguem se divulgar da maneira correta..."
+ A desvalorização dos artistas na música é um problema em que muitos artistas se sentem subestimados e não recebem o devido reconhecimento e remuneração por seu trabalho criativo. Isso pode ocorrer devido a baixos cachês, royalties inadequados, contratos desfavoráveis, falta de reconhecimento artístico, saturação do mercado musical e pressão comercial. Isso pode ter um impacto negativo na saúde mental e emocional dos artistas, levando ao esgotamento e frustração. É importante que a indústria musical reconheça o valor dos artistas e trabalhe para garantir sua justa valorização em termos de remuneração e reconhecimento artístico.
 
 ## Objetivos
 
@@ -68,17 +67,13 @@ Tem que falar o motivo da gente ter escolhido esse tema
 
 ## Público-Alvo
 
-O público alvo desse projeto são os artistas que amam a musica mas não tem a visibilidade que merecem e querem viver e se sustentar com a musica produziada pro eles. Essas pessoas não tem uma posição alta o suficiente na hierarquia para poder se divulgar e ter sua música descoberta por ouvintes
+ O público alvo desse projeto são os artistas que amam a musica mas não tem a visibilidade que merecem e querem viver e se sustentar com a musica produziada pro eles. Essas pessoas não tem uma posição alta o suficiente na hierarquia para poder se divulgar e ter sua música descoberta por ouvintes
 
 ![image](https://user-images.githubusercontent.com/130800957/232355531-5ffd9738-8b3d-42e4-875f-ab8a902728d8.png)
  
 # Especificações do Projeto
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Apresente uma visão geral do que será abordado nesta parte do
-> documento, enumerando as técnicas e/ou ferramentas utilizadas para
-> realizar a especificações do projeto
+ Agora iremos apresentar as personas que entrevistamos, os quadros de empatia e as propostas de valor. Utilizamos as seguintes ferramentas: Miro, this person do not exist e as entrevistas qualitativas.
 
 ## Personas, Empatia e Proposta de Valor
 
