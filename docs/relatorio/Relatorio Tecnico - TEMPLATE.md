@@ -1,7 +1,7 @@
 # Informações do Projeto
 `TÍTULO DO PROJETO`  
 
-A Desvalorização dos Artistas na Música
+StreamWave
 
 `CURSO` 
 
