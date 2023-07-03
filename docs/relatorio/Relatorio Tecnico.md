@@ -138,7 +138,8 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 # Projeto de Interface
 
-......  COLOQUE AQUI O SEU TEXTO DE INTRODUÇÃO ......
+
+Neste projeto de interface para um app de suporte a artistas independentes, nosso objetivo é criar uma experiência de usuário intuitiva e atrativa. Buscamos oferecer uma plataforma justa e igualitária, onde artistas independentes possam compartilhar sua música e alcançar visibilidade, enquanto os ouvintes possam descobrir novos talentos de forma simples e envolvente. Estamos empenhados em desenvolver uma interface acessível e esteticamente agradável, priorizando a interação entre artistas e ouvintes para fortalecer a comunidade musical independente.
 
 
 ## User Flow
