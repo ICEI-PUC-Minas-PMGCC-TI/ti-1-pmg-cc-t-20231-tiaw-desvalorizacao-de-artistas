@@ -267,7 +267,8 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 ## Tecnologias Utilizadas
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Desenvolvimento Web:
+Linguagens: HTML5, CSS3 e JavaScript para a construção da interface do usuário e interatividade.
 
 > Descreva aqui qual(is) tecnologias você vai usar para resolver o seu
 > problema, ou seja, implementar a sua solução. Liste todas as
