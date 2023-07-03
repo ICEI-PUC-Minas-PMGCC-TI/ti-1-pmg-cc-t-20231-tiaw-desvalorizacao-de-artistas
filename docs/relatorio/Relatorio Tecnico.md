@@ -181,8 +181,6 @@ Interface de usuário: Mario
 |-----------|-------------------------|---------------|
 |Processo de Design Thinkgin  | Miro |  https://miro.com/app/board/uXjVMYDaO64=/ | 
 |Repositório de código | GitHub | https://github.com/ICEI-PUC-Minas-PMGCC-TI/ti-1-pmg-cc-t-20231-tiaw-desvalorizacao-de-artistas | 
-|Hospedagem do site | Replit |  https://XXXXXXX.herokuapp.com | 
-|Protótipo Interativo | MavelApp ou Figma | https://figma.com/XXXXXXX | 
 
 
 # Projeto da Solução
