@@ -305,7 +305,19 @@ Linguagens: HTML5, CSS3 e JavaScript para a construção da interface do usuári
 
 ## Plano de Testes
 
-......  COLOQUE AQUI O SEU TEXTO ......
+1. Teste de registro de usuário:
+Cenário: O usuário entra na plataforma
+Ação: O usuário preenche os campos obrigatórios do formulário de registro e envia as informações.
+Resultado esperado: As informações são passadas corretamente para dentro da app.
+2. Teste de upload de músicas:
+Cenário: O usuário se registrou como artista plataforma.
+Ação: O usuário adiciona uma música preenchendo todos os campos obrigatórios.
+Resultado esperado: A música é adicionada com as informções corretas, o usuário é direcionado para a
+Home e a música adicionada começa a tocar.
+3. Teste das funcionalidades do app no geral:
+Cenário: O usuário tem mais de uma música adicionada.
+Ação: O usuário testa a search page, botões da home page e todas as listas e botões do profile.
+Resultado esperado: Tudo funcionará corretamente.
 
 > Enumere quais cenários de testes foram selecionados para teste. Neste
 > tópico o grupo deve detalhar quais funcionalidades avaliadas, o grupo
