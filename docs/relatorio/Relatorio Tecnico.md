@@ -221,14 +221,8 @@ Linguagens: HTML5, CSS3 e JavaScript para a construção da interface do usuári
 
 ## Arquitetura da solução
 
-......  COLOQUE AQUI O SEU TEXTO E O DIAGRAMA DE ARQUITETURA .......
-
 ![Navegador](https://github.com/ICEI-PUC-Minas-PMGCC-TI/ti-1-pmg-cc-t-20231-tiaw-desvalorizacao-de-artistas/assets/130800957/b468ae6c-32f1-4418-a23d-70a45aebce3a)
 
-> Inclua um diagrama da solução e descreva os módulos e as tecnologias
-> que fazem parte da solução. Discorra sobre o diagrama.
-> 
-> **Exemplo do diagrama de Arquitetura**:
 
 # Avaliação da Aplicação
 
