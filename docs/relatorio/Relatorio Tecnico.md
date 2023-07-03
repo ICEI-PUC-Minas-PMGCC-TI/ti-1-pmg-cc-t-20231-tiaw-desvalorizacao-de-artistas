@@ -297,14 +297,6 @@ Linguagens: HTML5, CSS3 e JavaScript para a construção da interface do usuári
 
 # Avaliação da Aplicação
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Apresente os cenários de testes utilizados na realização dos testes da
-> sua aplicação. Escolha cenários de testes que demonstrem os requisitos
-> sendo satisfeitos.
-
-## Plano de Testes
-
 1. Teste de registro de usuário:
 Cenário: O usuário entra na plataforma
 Ação: O usuário preenche os campos obrigatórios do formulário de registro e envia as informações.
@@ -318,6 +310,10 @@ Home e a música adicionada começa a tocar.
 Cenário: O usuário tem mais de uma música adicionada.
 Ação: O usuário testa a search page, botões da home page e todas as listas e botões do profile.
 Resultado esperado: Tudo funcionará corretamente.
+
+## Plano de Testes
+
+Foram selecionados os testes 1, 2 e 3
 
 ## Registros de Testes
 
