@@ -164,7 +164,10 @@ Neste projeto de interface para um app de suporte a artistas independentes, noss
 ## Wireframes
 
 ![image](https://github.com/ICEI-PUC-Minas-PMGCC-TI/ti-1-pmg-cc-t-20231-tiaw-desvalorizacao-de-artistas/assets/130789583/14a7e0f5-4f9a-4d11-b5ae-031c84c36748)
-
+![image](https://github.com/ICEI-PUC-Minas-PMGCC-TI/ti-1-pmg-cc-t-20231-tiaw-desvalorizacao-de-artistas/assets/130789583/c988e099-51e3-4cc8-a127-ecbcd61acab6)
+![image](https://github.com/ICEI-PUC-Minas-PMGCC-TI/ti-1-pmg-cc-t-20231-tiaw-desvalorizacao-de-artistas/assets/130789583/516e71a2-2ee0-4bb3-adda-d3ddf956d980)
+![image](https://github.com/ICEI-PUC-Minas-PMGCC-TI/ti-1-pmg-cc-t-20231-tiaw-desvalorizacao-de-artistas/assets/130789583/961e87bc-04b9-422d-94ba-1adb878230f5)
+![image](https://github.com/ICEI-PUC-Minas-PMGCC-TI/ti-1-pmg-cc-t-20231-tiaw-desvalorizacao-de-artistas/assets/130789583/5b965e69-9924-4544-8d41-7ae9c0e85075)
 
 
 # Metodologia
