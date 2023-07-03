@@ -1,0 +1,792 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 12px;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Background */
+
+.background {
+    position: fixed;
+    width: 200%;
+    height: 200%;
+    top: -50%;
+    left: -50%;
+    z-index: -1;
+    background: linear-gradient( 45deg, #000000 0%, #666666 40%, #ffffff 100%);
+}
+
+.background img {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    min-width: 50%;
+    min-height: 50%;
+    filter: blur(15px);
+    -webkit-filter: blur(50px);
+    transform: scale(1.1);
+}
+
+/* Container */
+
+.container{
+    background-color: #e7e7e7;
+    height: 500px;
+    width: 400px;
+    border-radius: 20px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+    transition: all 0.5s ease;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* Sidebar */
+
+.sidebar {
+    position: absolute;
+    top: 14%;
+    left: 35.8%;
+    width: 20px;
+    background-color: transparent;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    z-index: 1;
+}
+
+.sidebar-menu button {
+    color: #666;
+    display: none;
+    width: 30px;
+    align-items: center;
+    border: flex;
+    background-color: transparent;
+    font-size: 16px;
+    border: none;
+    margin-bottom: 12px;
+}
+
+.sidebar-menu button:hover {
+    filter: brightness(40%);
+}
+
+.sidebar.active .sidebar-menu button {
+    display: flex;
+}
+
+.sidebar-header button {
+    color: #666;
+    font-size: 18px;
+    display: flex;
+    margin-bottom: 14px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.sidebar-header button:hover {
+    filter: brightness(40%);
+}
+
+.sidebar-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.sidebar-btn {
+    color: #333;
+    font-size: 16px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    outline: none;
+}
+
+.sidebar-btn:hover {
+    filter: brightness(40%);
+}
+  
+.sidebar-btn:before {
+    display: inline-block;
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    content: "\f0c9";
+}
+  
+.sidebar-btn.times:before {
+    font-size: 22px;
+    content: "\f00d";
+}
+  
+
+#pagina1 {
+    display: flex; /* Exibe a página 1 por padrão */
+}
+
+#pagina2 {
+    background-color: #e7e7e7;
+}
+
+#pagina3 {
+    background-color: #e7e7e7;
+}
+
+#pagina4 {
+    background-color: #e7e7e7;
+}
+
+.container:hover {
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.6);
+}
+
+/* Player Controls */
+
+.player-img {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    top: -50px;
+}
+
+.player-img img {
+    object-fit: cover;
+    border-radius: 20px;
+    height: 0;
+    width: 0;
+    opacity: 0;
+    box-shadow: 0 5px 30px 5px rgba(0, 0, 0, 0.5);
+}
+
+.player-img:hover img {
+    box-shadow: 0 5px 30px 5px rgba(0, 0, 0, 0.8);
+}
+
+.player-img img.active {
+    width: 100%;
+    height: 100%;
+    transition: all 0.5s;
+    opacity: 1;
+}
+
+h2 {
+    font-size: 25px;
+    text-align: center;
+    font-weight: 500;
+    margin: 10px 0 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h3 {
+    font-size: 18px;
+    text-align: center;
+    font-weight: 500;
+    margin: 10px 0 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.player-progress {
+    background-color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 40px 20px 35px;
+    height: 6px;
+    width: 90%;
+}
+
+.progress {
+    background-color: #212121;
+    border-radius: 5px;
+    height: 100%;
+    width: 0%;
+    transition: width 0.1s linear;
+}
+
+.music-duration { 
+    position: relative;
+    top: -25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.player-controls {
+    position: relative;
+    top: -15px;
+    left: 12px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fa-solid {
+    font-size: 30px;
+    color: #666;
+    margin-right: 30px;
+    cursor: pointer;
+    user-select: none;
+    transition: all 0.3s ease;
+}
+
+.fa-solid:hover {
+    filter: brightness(40%);
+}
+
+.play-button {
+    font-size: 44px;
+    position: relative;
+}
+
+.like {
+    font-size: 26px;
+    color: #666;
+    cursor: pointer;
+    user-select: none;
+    transition: all 0.3s ease;
+    border: none;
+    background-color: transparent;
+    margin-right: 24px;
+}
+
+.like:hover {
+    filter: brightness(40%);
+}
+
+.liked {
+    color: red;
+}
+
+.share {
+    font-size: 26px;
+    color: #666;
+    cursor: pointer;
+    user-select: none;
+    transition: all 0.3s ease;
+    border: none;
+    background-color: transparent;
+    margin-right: 30px;
+}
+
+.share:hover{
+    filter: brightness(40%);
+}
+
+/* Search */
+
+.search {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+    height: 80%;
+    margin-bottom: auto;
+    margin-top: 22px;
+}
+
+#search-input {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    width: 69.5%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    margin-bottom: 14px;
+    background-color: transparent;
+}
+  
+.search button {
+    font-size: 14px;
+    padding: 12.5px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #666;
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+  
+.search button:hover {
+    background-color: #333;
+}
+
+#search-results {
+    min-width: 75%;
+    max-width: 75%;
+    list-style-type: none;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: auto;
+    margin-left: -6px;
+}
+
+#search-results li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 5px;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 500;
+    font-family: 'Ubuntu', sans-serif;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    border-radius: 3px;
+}
+
+#search-results p {
+    display: flex;
+    align-items: center;
+    margin: 15px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#search-results li img {
+    margin-right: 10px;
+    min-width: 35px;
+    max-width: 35px;
+    min-height: 35px;
+    max-height: 35px;
+    border-radius: 3px;
+}
+
+/* Add Music */
+
+.add-music {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.add-music input[type="file"] {
+    padding: 8px;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Ubuntu', sans-serif;
+    border-radius: 32px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-bottom: 24px;
+}
+
+.add-music button {
+    padding: 10px 20px;
+    background-color: #666;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Ubuntu', sans-serif;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    margin-top: 12px;
+}
+
+.add-music button:hover {
+    background-color: #333;
+}
+
+/* Profile */
+
+.profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: auto;
+    margin-top: 10%;
+}
+
+.profile img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.lists {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+    height: 60%;
+    margin: 18x;
+    margin-top: 32px;
+}
+
+.lists-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 10%;
+    border-bottom: 1px solid #999;
+}
+
+.lists-btn button {
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-bottom: 2px;
+    border: none;
+    background-color: transparent;
+    font-size: 18px;
+    color: #666;
+}
+
+.lists-btn button:hover{
+    filter: brightness(40%);
+}
+
+.lists-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 85%;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;
+    flex-direction: column-reverse;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* Internet Explorer e Edge */
+}
+
+.lists-content::-webkit-scrollbar {
+    display: none; /* Chrome, Safari e Opera */
+}
+
+#my-musics {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    list-style: none;
+    padding: 0;
+    scroll-snap-align: start;
+}
+
+.song-item {
+    display: flex;
+    align-items: center;
+    min-width: 100%;
+    max-width: 100%;
+    padding: 6px;
+    font-size: 14px;
+    font-family: 'Ubuntu', sans-serif;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+    border-radius: 3px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.song-item span {
+    margin-right: 10px;
+    margin-left: 5px;
+    color: #333;
+}
+
+.song-cover {
+    min-width: 35px;
+    max-width: 35px;
+    min-height: 35px;
+    max-height: 35px;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.song-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.song-title {
+    font-weight: bold;
+    margin-bottom: 5px;
+    
+}
+
+.song-info {
+    font-size: 14px;
+    color: #333;
+}
+
+.delete-button {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    margin-left: auto;
+    font-size: 16px;
+    margin-top: 1px;
+}
+
+.delete-button i {
+    color: #666;
+}
+
+.delete-button i:hover {
+    color: red;
+}
+
+#my-likes {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    list-style: none;
+    padding: 0;
+    scroll-snap-align: start;
+}
+  
+.liked-song {
+    display: flex;
+    align-items: center;
+    min-width: 100%;
+    max-width: 100%;
+    padding: 6px;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Ubuntu', sans-serif;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+    border-radius: 3px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+  
+.liked-song-image {
+    min-width: 35px;
+    max-width: 35px;
+    min-height: 35px;
+    max-height: 35px;
+    object-fit: cover;
+    margin-right: 10px;
+}
+  
+.liked-song-title {
+    
+    margin: 5px;
+}
+  
+.liked-song-artist {
+    color: #666;
+} 
+  
+#snackbar {
+    visibility: hidden;
+    min-width: 250px;
+    background-color: transparent;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 10px 0 0;
+    text-align: center;
+    padding: 16px;
+    position: fixed;
+    left: 37%;
+    bottom: 12px;
+    font-family: 'Ubuntu', sans-serif;
+    z-index: -1;
+}
+  
+#snackbar.show {
+    visibility: visible;
+    animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+/* Animations */
+  
+@keyframes fadein {
+    from {bottom: 40px; opacity: 0;}
+    to {bottom: 14px; opacity: 1;}
+}
+  
+@keyframes fadeout {
+    from {bottom: 14px; opacity: 1;}
+    to {bottom: 40px; opacity: 0;}
+}
+  
+/* Media Queries */
+
+@media (max-width: 480px) {
+
+    html {
+        box-sizing: border-box;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    body {
+        margin: 0;
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 12px;
+        min-height: 100vh;
+        width: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .container {
+        background-color: #e7e7e7;
+        height: 400px;
+        width: 100%;
+        border-radius: 20px;
+        box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+        transition: all 0.5s ease;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-left: -12px;
+    }
+
+    .player-img{
+        width: 70%;
+        height: 64%;
+        position: relative;
+        top: -35px;
+    }
+
+    .sidebar {
+        position: absolute;
+        top: 150px;
+        left: 10%;
+        width: 20px;
+        background-color: transparent;
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        z-index: 1;
+    }
+
+    .player-controls{
+        position: relative;
+        top: -15px;
+        left: 12px;
+        width: 75%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .fa-solid {
+        font-size: 30px;
+        color: #666;
+        margin-right: 10%;
+        cursor: pointer;
+        user-select: none;
+        transition: all 0.3s ease;
+    }
+
+    .like {
+        font-size: 26px;
+        color: #666;
+        cursor: pointer;
+        user-select: none;
+        transition: all 0.3s ease;
+        border: none;
+        background-color: transparent;
+        margin-right: 8%;
+    }
+    
+    .liked {
+        color: red;
+    }
+
+    .share {
+        font-size: 26px;
+        color: #666;
+        cursor: pointer;
+        user-select: none;
+        transition: all 0.3s ease;
+        border: none;
+        background-color: transparent;
+        margin-right: 10%;
+    }
+
+    #search-input {
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 14px;
+        padding: 12px;
+        border: none;
+        border-radius: 5px;
+        outline: none;
+        width: 50%;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        margin-bottom: 14px;
+        margin-left: 10%;
+        background-color: transparent;
+    }
+      
+    .search button {
+        font-size: 14px;
+        padding: 12.5px 18px;
+        border: none;
+        border-radius: 5px;
+        background-color: #666;
+        color: #fff;
+        cursor: pointer;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    }
+
+    .add-music input[type="file"] {
+        padding: 8px;
+        font-size: 12px;
+        font-weight: 500;
+        font-family: 'Ubuntu', sans-serif;
+        border-radius: 32px;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        margin-bottom: 20px;
+        margin-top: 10px;
+    }
+
+    #snackbar {
+        visibility: hidden;
+        min-width: 250px;
+        background-color: transparent;
+        color: #fff;
+        font-size: 18px;
+        font-weight: 500;
+        margin: 10px 0 0;
+        text-align: center;
+        padding: 16px;
+        position: fixed;
+        left: 10.5%;
+        bottom: 140px;
+        font-family: 'Ubuntu', sans-serif;
+        z-index: -1;
+    }
+}

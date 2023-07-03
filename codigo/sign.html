@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Stream Wave</title>
+  <style>
+
+    @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
+    html{
+        box-sizing: border-box;
+    }
+
+    body{
+        margin: 0;
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 12px;
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .background{
+        position: fixed;
+        width: 200%;
+        height: 200%;
+        top: -50%;
+        left: -50%;
+        z-index: -1;
+        background: linear-gradient( 45deg, #000000 0%, #666666 40%, #e7e7e7 100%);
+    }
+
+    .background img{
+        position: absolute;
+        margin: auto;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        min-width: 50%;
+        min-height: 50%;
+        filter: blur(15px);
+        -webkit-filter: blur(50px);
+        transform: scale(1.1);
+    }
+
+    .container{
+        background-color: #e7e7e7;
+        height: 450px;
+        width: 400px;
+        border-radius: 20px;
+        box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+        transition: all 0.5s ease;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .container:hover{
+      box-shadow: 0 15px 30px rgba(0, 0, 0, 0.6);
+    }
+
+    #cadatroForm{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    h1 {
+      font-size: 48px;
+      font-family: 'Ubuntu, sans-serif';
+      font-weight: lighter;
+      text-align: center;
+      margin-bottom: 50px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 10px;
+      font-family: 'Ubuntu';
+      font-weight: 500;
+    }
+
+    input[type="text"],
+    input[type="file"] {
+      width: 96%;
+      padding: 5px;
+      margin-bottom: 24px;
+      border-radius: 3px;
+      font-family: 'Ubuntu';
+      font-weight: 500;
+    }
+
+    select {
+      width: 50%;
+      padding: 5px;
+      margin-bottom: 32px;
+      border-radius: 3px;
+      font-family: 'Ubuntu';
+      font-weight: 500;
+    }
+
+    button[type="submit"] {
+      width: 100%;
+      padding: 10px;
+      background-color: #666;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+      border-radius: 3px;
+      margin-top: 22px;
+      font-family: 'Ubuntu';
+      font-weight: 500;
+    }
+
+    button[type="submit"]:hover {
+      background-color: #333;
+    }
+  </style>
+</head>
+<body>
+    <div class="background">
+        <img src="" id="bg-img">
+    </div>
+  <div class="container">
+    <h1>Stream Wave</h1>
+    <form id="cadastroForm">
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" required>
+      
+      <label for="foto">Foto de Perfil:</label>
+      <input type="file" id="foto" required accept="image/*">
+
+      <select id="tipoUsuario" required>
+        <option value="">Selecione o tipo de usuário</option>
+        <option value="usuario">Ouvinte</option>
+        <option value="artista">Artista</option>
+      </select>
+      
+      <button type="submit">Entrar</button>
+    </form>
+  </div>
+
+  <script>
+    document.getElementById("cadastroForm").addEventListener("submit", function(event) {
+      event.preventDefault(); // Evita o envio do formulário
+
+      var nome = document.getElementById("nome").value;
+      var foto = document.getElementById("foto").files[0];
+      var tipoUsuario = document.getElementById("tipoUsuario").value;
+      
+      // Ler a imagem selecionada como Base64
+      var reader = new FileReader();
+      reader.onload = function(e) {
+        var fotoBase64 = e.target.result;
+        
+        // Armazenar a imagem no localStorage
+        localStorage.setItem("nome", nome);
+        localStorage.setItem("fotoBase64", fotoBase64);
+      };
+      reader.readAsDataURL(foto);
+
+      if (tipoUsuario === "artista") {
+        window.location.href = "artist.html";
+      } else if (tipoUsuario === "usuario") {
+        window.location.href = "user.html";
+      } else {
+        alert("Selecione o tipo de usuário"); // Exibe um alerta se nenhum tipo de usuário for selecionado
+      }
+    });
+  </script>
+</body>
+</html>
