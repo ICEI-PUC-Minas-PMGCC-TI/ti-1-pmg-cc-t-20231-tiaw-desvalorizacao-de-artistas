@@ -263,7 +263,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 # Projeto da Solução
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Vamos oferecer a eles uma plataforma para alcançar um público maior com ausência de métricas visíveis. O que ajudará a democratizar a indústria musical, permitindo que artistas menos conhecidos tenham mais visibilidade.
 
 ## Tecnologias Utilizadas
 
