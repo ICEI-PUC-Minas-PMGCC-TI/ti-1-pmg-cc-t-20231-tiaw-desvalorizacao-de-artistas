@@ -183,7 +183,9 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 # Metodologia
 
 Desenvolvedor: Lucas e Henrique​
+
 Teste de qualidade: Rafael​
+
 Interface de usuário: Mario
 
 
