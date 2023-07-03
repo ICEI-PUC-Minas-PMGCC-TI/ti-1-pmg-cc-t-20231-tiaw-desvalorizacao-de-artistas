@@ -258,11 +258,14 @@ Foram selecionados os testes 1, 2 e 3
 
 # Referências
 
-......  COLOQUE AQUI O SEU TEXTO ......
+REFERÊNCIAS
 
-> Inclua todas as referências (livros, artigos, sites, etc) utilizados
-> no desenvolvimento do trabalho.
-> 
-> **Links Úteis**:
-> - [Formato ABNT](https://www.normastecnicas.com/abnt/trabalhos-academicos/referencias/)
-> - [Referências Bibliográficas da ABNT](https://comunidade.rockcontent.com/referencia-bibliografica-abnt/)
+CANVA. Disponível em: https://www.canva.com/. Acesso em: 02 jul. 2023.
+
+GITHUB. Disponível em: https://github.com/.
+
+MIRO. Disponível em: https://miro.com/. Acesso em: 17 abril. 2023.
+
+REPLIT. Disponível em: https://replit.com/. 
+
+VISUAL STUDIO CODE (VSCODE). Disponível em: https://code.visualstudio.com/. 
